@@ -1,5 +1,6 @@
 import sys
 import pytest
+from firefly_uas.location.model import LocOptModel
 
 
 # each test runs on cwd to its temp dir
@@ -12,3 +13,10 @@ def go_to_tmpdir(request):
     # Chdir only for the duration of the test.
     with tmpdir.as_cwd():
         yield
+
+def test_loc_opt_model_initialization():
+    """
+    Test location model initialization
+    """
+    model = LocOptModel()
+    assert model is not None

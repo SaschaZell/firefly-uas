@@ -32,7 +32,7 @@ def read_requirements(path):
 setup(
     name="firefly_uas",
     version=read("firefly_uas", "VERSION"),
-    description="Awesome firefly_uas created by SaschaZell",
+    description="firefly_uas created by Sascha Zell",
     url="https://github.com/SaschaZell/firefly-uas/",
     long_description=read("README.md"),
     long_description_content_type="text/markdown",

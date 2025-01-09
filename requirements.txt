@@ -1,5 +1,24 @@
-# This template is a low-dependency template. 
-# By default there is no requirements added here.
-# Add the requirements you need to this file.
-# or run `make init` to create this file automatically based on the template.
-# You can also run `make switch-to-poetry` to use the poetry package manager.
+branca>=0.6.0
+emergency_rescue_sim>=0.1.0
+folium>=0.14.0
+geojson>=2.5.0
+geopandas>=0.13.2
+geopy>=2.4.0
+haversine>=2.8.0
+matplotlib>=3.6.2
+numpy>=1.24.1
+osmnx>=2.0.1
+overpass>=0.7
+pandas>=2.0.0
+pdf2image>=1.17.0
+Pillow>=11.1.0
+Pyomo>=6.6.2
+pyproj>=3.5.0
+pytest>=7.4.3
+Requests>=2.32.3
+scipy>=1.15.0
+setuptools>=41.2.0
+Shapely>=2.0.6
+tkintermapview>=1.29
+ttkbootstrap>=1.10.1
+utm>=0.7.0
